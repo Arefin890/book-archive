@@ -9,7 +9,6 @@ const loadData = () => {
 
     if (searchText === '') {
         document.getElementById('error-message').style.display = 'block';
-        // document.getElementById('search-not').style.display = 'none';
         searchText.textContent = '';
         searchField.value = '';
         bookContainer.textContent = '';
@@ -32,7 +31,6 @@ const loadData = () => {
 
 // Display search book
 const displayBook = books => {
-    console.log(books);
     const bookContainer = document.getElementById('books-list');
     bookContainer.textContent = '';
     countDiv.textContent = '';

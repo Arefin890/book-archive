@@ -1,0 +1,10 @@
+.book_image{
+    margin-top: 10px;
+    height: 300px;
+}
+#error-message{
+    display: none;
+}
+#search-not{
+    display: none;
+}
